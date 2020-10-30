@@ -6,3 +6,12 @@
 //
 
 import Foundation
+
+class Node {
+    var value: String?
+    var children:[Node]
+    
+    init() {
+        self.children = [Node]()
+    }
+}

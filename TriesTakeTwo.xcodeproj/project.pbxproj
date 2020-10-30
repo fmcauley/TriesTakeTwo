@@ -12,6 +12,8 @@
 		F0C4F9B1254CBBE60019641E /* TriesTakeTwo.h in Headers */ = {isa = PBXBuildFile; fileRef = F0C4F9A3254CBBE60019641E /* TriesTakeTwo.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F0C4F9BD254CBC1F0019641E /* TrieTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0C4F9BC254CBC1F0019641E /* TrieTests.swift */; };
 		F0C4F9C1254CBC5C0019641E /* Trie.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0C4F9C0254CBC5C0019641E /* Trie.swift */; };
+		F0C4F9C5254CBE790019641E /* NodeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0C4F9C4254CBE790019641E /* NodeTests.swift */; };
+		F0C4F9C9254CBEE10019641E /* Node.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0C4F9C8254CBEE10019641E /* Node.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +35,8 @@
 		F0C4F9B0254CBBE60019641E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F0C4F9BC254CBC1F0019641E /* TrieTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrieTests.swift; sourceTree = "<group>"; };
 		F0C4F9C0254CBC5C0019641E /* Trie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trie.swift; sourceTree = "<group>"; };
+		F0C4F9C4254CBE790019641E /* NodeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NodeTests.swift; sourceTree = "<group>"; };
+		F0C4F9C8254CBEE10019641E /* Node.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Node.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +82,7 @@
 				F0C4F9A3254CBBE60019641E /* TriesTakeTwo.h */,
 				F0C4F9A4254CBBE60019641E /* Info.plist */,
 				F0C4F9C0254CBC5C0019641E /* Trie.swift */,
+				F0C4F9C8254CBEE10019641E /* Node.swift */,
 			);
 			path = TriesTakeTwo;
 			sourceTree = "<group>";
@@ -88,6 +93,7 @@
 				F0C4F9AE254CBBE60019641E /* TriesTakeTwoTests.swift */,
 				F0C4F9B0254CBBE60019641E /* Info.plist */,
 				F0C4F9BC254CBC1F0019641E /* TrieTests.swift */,
+				F0C4F9C4254CBE790019641E /* NodeTests.swift */,
 			);
 			path = TriesTakeTwoTests;
 			sourceTree = "<group>";
@@ -202,6 +208,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F0C4F9C1254CBC5C0019641E /* Trie.swift in Sources */,
+				F0C4F9C9254CBEE10019641E /* Node.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -210,6 +217,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F0C4F9AF254CBBE60019641E /* TriesTakeTwoTests.swift in Sources */,
+				F0C4F9C5254CBE790019641E /* NodeTests.swift in Sources */,
 				F0C4F9BD254CBC1F0019641E /* TrieTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
