@@ -9,9 +9,9 @@ import Foundation
 
 class Node {
     var value: String?
-    var children:[Node]
+    var children:[String:Node]
     
     init() {
-        self.children = [Node]()
+        self.children = [String: Node]()
     }
 }

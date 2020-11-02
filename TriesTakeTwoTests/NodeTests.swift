@@ -41,11 +41,11 @@ class NodeTests: XCTestCase {
     func testThatANodeWithAChildEntryHasAValue() {
         let node = Node()
         let childNode = Node()
-        childNode.value = "Frank"
-        node.children.append(childNode)
-        let output = node.children.first?.value
-        let expected = "Frank"
+        let value = "Frank"
+        childNode.value = value
+        node.children[value] = childNode
+        let output = node.children[value]?.value
         
-        XCTAssertEqual(output, expected)
+        XCTAssertEqual(output, value)
     }
 }

@@ -22,5 +22,24 @@ class TrieTests: XCTestCase {
         let trie = Trie()
         XCTAssertNotNil(trie)
     }
-
+    
+    func testThatATrieCanInsertANewValue() {
+        let trie = Trie()
+        let key = "apple"
+        let value = "Frank"
+        trie.insert(key, value)
+        
+        XCTAssertTrue(trie.root.children.count > 0)
+    }
+    
+    func testThatATrieCanFindAValue() {
+        let trie = Trie()
+        let key = "joke"
+        let value = "Eric B & Rakim"
+        trie.insert(key, value)
+        let output = trie.find(key)
+        let expected = "Eric B & Rakim"
+        
+        XCTAssertEqual(output, expected)
+    }
 }
