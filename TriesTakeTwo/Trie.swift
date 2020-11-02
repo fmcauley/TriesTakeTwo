@@ -28,8 +28,10 @@ class Trie {
             if current.children[char] == nil {
                 current.children[char] = Node()
             }
+            
             if let currentNode = current.children[char] {
                 current = currentNode
+                current.value = char
             }
             
             priorCharacter = char
@@ -61,4 +63,23 @@ class Trie {
         }
         return current.value
     }
+    
+    func filter(_ prefix: String, _ suffix: String) -> Bool {
+        let current = root
+        
+        guard current.children[prefix] != nil else {
+            return false
+        }
+        
+        var node = current.children[prefix]
+        if let testNode = node {
+            while testNode.value != nil {
+                
+            }
+        }
+        
+        return true
+    }
+    
+   
 }
